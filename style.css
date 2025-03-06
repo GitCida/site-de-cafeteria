@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: #eaeaea;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D8D9D7;
+}
+
+#imagem {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+#menu>li:not(:last-child){
+    border-right: solid 1px black;
+}
+
+h1 {
+    background-color: #D8D9D7;
+    padding: 50px;
+    color: #000000;
+    font-family: system-ui;
+    font-size: 70px;
+}
+
+#destaques{
+    text-align: center;
+    margin: 50px;
+}
+
+/* Color Theme Swatches in Hex */
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-1-hex { color: #3C3D40; }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-2-hex { color: #D8D9D7; }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-3-hex { color: #8C7C6D; }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-4-hex { color: #BFB3A8; }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-5-hex { color: #402D22; }
+
+/* Color Theme Swatches in RGBA */
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-1-rgba { color: rgba(59, 60, 63, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-2-rgba { color: rgba(216, 216, 214, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-3-rgba { color: rgba(140, 123, 109, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-4-rgba { color: rgba(191, 179, 168, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-5-rgba { color: rgba(63, 44, 33, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-1-hsla { color: hsla(225, 3, 24, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-2-hsla { color: hsla(67, 2, 84, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-3-hsla { color: hsla(28, 12, 48, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-4-hsla { color: hsla(28, 15, 70, 1); }
+.Stylish--flat-lay-composition-in-beige-and-gray-color-palette-with-textile-and-paint-samples,-panels-and-tiles-5-hsla { color: hsla(22, 30, 19, 1); }
+
